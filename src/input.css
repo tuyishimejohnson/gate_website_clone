@@ -2,7 +2,6 @@
 @import "tailwindcss/utilities";
 @import "tailwindcss/components";
 
-
-.background-section {
-    background-image: url('/images/backgroundImage.jpeg');
+body {
+    height: 3000px;
 }

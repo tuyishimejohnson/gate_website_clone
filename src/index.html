@@ -87,15 +87,21 @@
 
         <section>
             <h1>Which course are you looking for?</h1>
-            <select name="#" id="#">
-                <option value="All" class="w-full">All</option>
-                <option value="">Bachelor's and Integrated Master’s Degrees</option>
-                <option value="M">Master’s Degrees</option>
-                <option value="D">Doctorates</option>
-            </select>
-            <div>
+            <form action="#" class="flex flex-col gap-5">
+                <select name="#" id="#" class="w-[60%] border-2 border-black px-4 py-4">
+                    <option value="All" class="">All</option>
+                    <option value="">Bachelor's and Integrated Master’s Degrees</option>
+                    <option value="M">Master’s Degrees</option>
+                    <option value="D">Doctorates</option>
+                </select>
+    
+                <div>
+                    <input type="text" placeholder="Please enter course keywords..."  class="w-[60%] border-2 border-black px-4 py-4">
+                </div>
 
-            </div>
+                <div class="text-center w-[60%]"><button type="submit">Search</button></div>
+            </form>
+            
         </section>
     </main>
     
