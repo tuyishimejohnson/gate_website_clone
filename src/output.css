@@ -903,11 +903,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1044,43 +1039,159 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:block {
-    display: block;
+  .md\:bottom-0 {
+    bottom: 0px;
   }
 
-  .md\:flex {
-    display: flex;
+  .md\:top-0 {
+    top: 0px;
+  }
+
+  .md\:bottom-4 {
+    bottom: 1rem;
+  }
+
+  .md\:bottom-3 {
+    bottom: 0.75rem;
+  }
+
+  .md\:bottom-40 {
+    bottom: 10rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:hidden {
     display: none;
   }
 
-  .md\:items-center {
-    align-items: center;
+  .md\:h-\[\] {
+    height: ;
   }
 
-  .md\:justify-center {
-    justify-content: center;
+  .md\:h-\[30\] {
+    height: 30;
   }
 
-  .md\:justify-between {
-    justify-content: space-between;
+  .md\:h-\[30\%\] {
+    height: 30%;
   }
 
-  @media (min-width: 1024px) {
-    .md\:lg\:hidden {
-      display: none;
-    }
+  .md\:h-\[50\%\] {
+    height: 50%;
+  }
+
+  .md\:h-\[0\%\] {
+    height: 0%;
+  }
+
+  .md\:h-\[10\%\] {
+    height: 10%;
+  }
+
+  .md\:h-\[20\%\] {
+    height: 20%;
+  }
+
+  .md\:h-\[40\%\] {
+    height: 40%;
+  }
+
+  .md\:h-\[80\%\] {
+    height: 80%;
+  }
+
+  .md\:h-\[50vh\] {
+    height: 50vh;
+  }
+
+  .md\:h-\[0vh\] {
+    height: 0vh;
+  }
+
+  .md\:h-\[30vh\] {
+    height: 30vh;
+  }
+
+  .md\:h-\[40vh\] {
+    height: 40vh;
+  }
+
+  .md\:w-1\/3 {
+    width: 33.333333%;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 }
 
 @media (min-width: 1024px) {
+  .lg\:top-1\/2 {
+    top: 50%;
+  }
+
+  .lg\:left-40 {
+    left: 10rem;
+  }
+
+  .lg\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .lg\:bottom-40 {
+    bottom: 10rem;
+  }
+
+  .lg\:bottom-10 {
+    bottom: 2.5rem;
+  }
+
+  .lg\:bottom-1 {
+    bottom: 0.25rem;
+  }
+
+  .lg\:bottom-14 {
+    bottom: 3.5rem;
+  }
+
+  .lg\:bottom-16 {
+    bottom: 4rem;
+  }
+
+  .lg\:bottom-20 {
+    bottom: 5rem;
+  }
+
   .lg\:block {
     display: block;
   }
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:w-1\/3 {
+    width: 33.333333%;
+  }
+
+  .lg\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 }
