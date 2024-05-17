@@ -558,12 +558,12 @@ video {
   display: flex;
 }
 
-.h-3 {
-  height: 0.75rem;
-}
-
 .w-6 {
   width: 1.5rem;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .py-5 {
@@ -574,11 +574,6 @@ video {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-blue-400 {
-  --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity));
 }
 
 
