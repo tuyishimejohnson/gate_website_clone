@@ -85,22 +85,31 @@
             </div>
         </section>
 
-        <section>
-            <h1>Which course are you looking for?</h1>
-            <form action="#" class="flex flex-col gap-5">
-                <select name="#" id="#" class="w-[60%] border-2 border-black px-4 py-4">
-                    <option value="All" class="">All</option>
-                    <option value="">Bachelor's and Integrated Master’s Degrees</option>
-                    <option value="M">Master’s Degrees</option>
-                    <option value="D">Doctorates</option>
-                </select>
-    
-                <div>
-                    <input type="text" placeholder="Please enter course keywords..."  class="w-[60%] border-2 border-black px-4 py-4">
-                </div>
+        <section class="px-40">
+            <h1 class="text-3xl">Which course are you looking for?</h1>
+            <div class="flex  gap-7">
+                <form action="#" class="flex flex-col gap-5 w-[60%]">
+                    <select name="#" id="#" class="w-full border-2 border-black px-4 py-4">
+                        <option value="All" class="">All</option>
+                        <option value="">Bachelor's and Integrated Master’s Degrees</option>
+                        <option value="M">Master’s Degrees</option>
+                        <option value="D">Doctorates</option>
+                    </select>
+        
+                    <div>
+                        <input type="text" placeholder="Please enter course keywords..."  class="w-full border-2 border-black px-4 py-4">
+                    </div>
 
-                <div class="text-center w-[60%]"><button type="submit">Search</button></div>
-            </form>
+                    <div class="text-center w-full bg-yellow-600 px-4 py-4 text-white font-semibold text-2xl"><a href="#">Search</a></div>
+                </form>
+
+                <div class="text-[1.7rem]">
+                    <h2 class="font-semibold">Courses from A to Z:</h2>
+                    <div><a href="#" class="underline">Bachelor's and Integrated Master’s Degrees</a></div>
+                    <div><a href="#" class="underline">Master’s Degrees</a></div>
+                    <div><a href="#" class="underline">Doctorates</a></div>
+                </div>
+            </div>
             
         </section>
     </main>
