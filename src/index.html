@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <header>
+    <header class="md:hidden lg:block">
         <nav class="flex justify-between px-40 bg-gray-900 text-white items-center">
             <div class="flex items-center gap-4">
                 <div class="hover:bg-gray-400">
@@ -40,11 +40,11 @@
         </nav>
 
         <nav class="flex justify-between px-40 items-center py-8 bg-gray-200">
-            <div class="w-1/3">
+            <div class="w-1/4">
                 <img src="icons/8a08e34d-43a0-4aa9-980d-281d77cfae66.svg" alt="" class="w-full">
             </div>
 
-            <div class="text-[1.3rem] font-semibold">
+            <div class="text-[1.1rem] font-semibold">
                 <ul class="flex gap-6">
                     <li><a href="#">STUDY</a></li>
                     <li><a href="#">RESEARCH</a></li>
@@ -59,6 +59,20 @@
                 <img src="icons/adedb55a-6571-4f95-90dc-90ceecfc0956.svg" alt="" class="w-8">                
             </div>
         </nav>
+    </header>
+
+    <header class="md:block lg:hidden">
+        <div class="flex justify-between p-4">
+            <div class="flex gap-3 items-center">
+                <img src="icons/0ea9bf0e-983d-416e-9a13-79aae9ca4c96.svg" alt="" class="w-10">
+                <div class="w-1/3"><img src="icons/47d87f96-2b58-4dcf-ad80-d3763f69df41.svg" alt="" class="w-full"></div>
+            </div>
+    
+            <div class="">
+                <img src="icons/b928443b-33d1-43a7-a368-6cd34de1f4b7.svg" alt="" class="w-10">
+            </div>
+        </div>
+        
     </header>
 
     <main>
@@ -76,7 +90,7 @@
         </section>
 
         <section class="mt-20 px-40">
-            <h1 class="text-6xl">Study</h1>
+            <h1 class="text-6xl text-yellow-600">Study</h1>
             <div class="">
                 <div class="flex pt-10 border-b-[1px] justify-between">
                     <h2 class="font-semibold text-2xl w-[40%]">Your future is here!</h2>
@@ -86,7 +100,7 @@
         </section>
 
         <section class="px-40">
-            <h1 class="text-3xl">Which course are you looking for?</h1>
+            <h1 class="text-3xl pt-10 py-7">Which course are you looking for?</h1>
             <div class="flex  gap-7">
                 <form action="#" class="flex flex-col gap-5 w-[60%]">
                     <select name="#" id="#" class="w-full border-2 border-black px-4 py-4">
@@ -167,8 +181,8 @@
 
         <section class="px-40 border-b-4"> 
             <div class="relative">
-                <div class="w-1/2 m-auto"><img src="images/minerva_01.png" alt="" class="w-1/2 h-[40%] mt-[17%]"></div>
-                <div class="absolute top-6 flex">
+                <div class="w-1/2 m-auto"><img src="images/minerva_01.png" alt="" class="w-1/2 h-[10%]"></div>
+                <div class="absolute top-1/4 flex">
                     <h1 class=" text-5xl text-center">We are a University of Excellence!</h1>
                     <div class="w-2/3 flex flex-col gap-7">
                         <p>With over 100 years of history, the University of Porto is a <strong>leading teaching and scientific research institution in Portugal and worldwide.</strong></p>
