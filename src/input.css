@@ -3,3 +3,6 @@
 @import "tailwindcss/components";
 
 
+.background-section {
+    background-image: url('/images/backgroundImage.jpeg');
+}
